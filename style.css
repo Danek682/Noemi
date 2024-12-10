@@ -306,6 +306,7 @@ ul,ol{
    color: 888888;
    font-size: 12px;
    line-height: 40px;
+ font-family: opensansregular, sans-serif;
 }
 
 .author{
@@ -319,6 +320,7 @@ ul,ol{
    padding-top: 10px;
    font-size: 15px;
    line-height: 22px;
+font-family: opensansregular, sans-serif;
 }
 
 .content-post{
@@ -378,6 +380,7 @@ ul,ol{
    color: #888888;
    font-size: 12px;
    line-height: 40px;
+     font-family: opensansregular, sans-serif;
  }
 
  .container-post {
@@ -447,7 +450,7 @@ ul,ol{
  }
 
  .email-form{
-
+font-family: opensansregular, sans-serif;
    min-height: 48px;
    border: none;
    background-color: #f4f7f6;
@@ -671,7 +674,7 @@ ul,ol{
 }
 
 .price-old{
-  font-family: opensansbold;
+  font-family: opensansbold,sans-serif;
   font-size: 15px;
   line-height: 24px;
   color: #0f0d0e;
@@ -680,7 +683,7 @@ ul,ol{
 }
 
 .price-new{
-  font-family: opensansbold;
+  font-family: opensansbold, sans-serif;
   font-size: 22px;
   line-height: 24px;
   color: #0f0d0e;
