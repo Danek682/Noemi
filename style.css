@@ -73,6 +73,7 @@ ul,ol{
    text-transform: uppercase;
    font-size: 13px;
     font-family: opensansregular, sans-serif;
+    font-weight: 400;
 }
 
 .header{
@@ -116,6 +117,7 @@ ul,ol{
    padding-top: 110px;
    text-decoration: none;
    line-height: 1.5;
+   font-weight: 700;
 }
 
 .trends-now-title{
@@ -125,6 +127,7 @@ ul,ol{
   line-height: 30px;
   color: #0f0d0e;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .trends-now-title::after{
@@ -144,12 +147,17 @@ ul,ol{
   margin-top: 60px;
 }
 
+.trends-container-position {
+  display: flex;
+  gap: 4px ;
+  flex-wrap: wrap;
+}
+
 .trend-container{
   display: flex;
   margin: 0 auto;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 4px;
   margin-top: 25px;
   margin-bottom: 60px;
 }
@@ -232,6 +240,7 @@ ul,ol{
   line-height: 40px;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .text-link {
@@ -241,6 +250,7 @@ ul,ol{
   line-height: 24px;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .last-posts{
@@ -273,6 +283,7 @@ ul,ol{
    color: #b59f5b;
    font-family: OpenSansBold,sans-serif;
    text-transform: uppercase;
+   font-weight: 700;
 }
 
 .tag-second{
@@ -280,6 +291,7 @@ ul,ol{
    color: #b59f5b;
    font-family: OpenSansBold,sans-serif;
    text-transform: uppercase;
+   font-weight: 700;
 }
 
 .post-title-search{
@@ -289,6 +301,7 @@ ul,ol{
    font-size: 20px;
    line-height: 24px;
    text-transform: uppercase;
+   font-weight: 700;
 }
 
 .post-title-search:hover{
@@ -305,6 +318,7 @@ ul,ol{
    font-size: 12px;
    line-height: 40px;
  font-family: opensansregular, sans-serif;
+ font-weight: 400;
 }
 
 .author{
@@ -312,13 +326,15 @@ ul,ol{
    color: #000000;
    font-size: 12px;
    font-family: OpenSansBold,sans-serif;
+   font-weight: 400;
 }
 
 .text{
    padding-top: 10px;
    font-size: 15px;
    line-height: 22px;
-font-family: opensansregular, sans-serif;
+  font-family: opensansregular, sans-serif;
+  font-weight: 400;
 }
 
 .content-post{
@@ -343,6 +359,7 @@ font-family: opensansregular, sans-serif;
    font-size: 14px;
    margin-bottom: 0px;
    margin-top: 0px;
+   font-weight: 700;
  }
  
  .news-title::after{
@@ -364,6 +381,7 @@ font-family: opensansregular, sans-serif;
    text-decoration: none;
    color: #0f0d0e;
    margin-top: 2px;
+   font-weight: 700;
  }
 
 .new-name:hover{
@@ -378,7 +396,8 @@ font-family: opensansregular, sans-serif;
    color: #888888;
    font-size: 12px;
    line-height: 40px;
-     font-family: opensansregular, sans-serif;
+   font-family: opensansregular, sans-serif;
+   font-weight: 400;
  }
 
  .container-post {
@@ -433,6 +452,7 @@ font-family: opensansregular, sans-serif;
    line-height: 29px;
    color: #0f0d0e;
    text-transform: uppercase;
+   font-weight: 700;
 }
 
 .mailing-title::after{
@@ -454,6 +474,7 @@ font-family: opensansregular, sans-serif;
    background-color: #f4f7f6;
    padding: 6px 12px;
    box-sizing: border-box;
+   font-weight: 400;
  }
 
 .email-form:focus{
@@ -470,6 +491,7 @@ font-family: opensansregular, sans-serif;
    line-height: 40px;
    font-family: OpenSansBold,sans-serif;
    cursor: pointer;
+   font-weight: 700;
  }
 
  .subscribe:hover{
@@ -484,6 +506,7 @@ font-family: opensansregular, sans-serif;
    line-height: 29px;
    text-transform: uppercase;
    margin-top: 50px;
+   font-weight: 700;
  }
 
  .tags-title::after{
@@ -504,6 +527,7 @@ font-family: opensansregular, sans-serif;
    font-family: OpenSansBold,sans-serif;
    text-transform: uppercase;
    font-size: 12px;
+   font-weight: 700;
  }
 
  .tags-item{
@@ -532,6 +556,7 @@ font-family: opensansregular, sans-serif;
    text-transform: uppercase;
    margin-top: 40px;
    text-align: center;
+   font-weight: 700;
 }
 
 .thames-title::after{
@@ -562,6 +587,7 @@ font-family: opensansregular, sans-serif;
    line-height: 47px;
    font-family: OpensansBold,sans-serif;
    color: #000;
+   font-weight: 700;
  }
 
 .thames-a:hover{
@@ -573,6 +599,7 @@ font-family: opensansregular, sans-serif;
    font-family: Opensansbold,sans-serif;
    padding-left: 2px;
    vertical-align: super;
+   font-weight: 700;
  }
 
 .our-products-link{
@@ -583,6 +610,7 @@ font-family: opensansregular, sans-serif;
   text-transform: uppercase;
   color: #0f0d0e;
   margin-top: 50px;
+  font-weight: 700;
 }
 
 .our-products-link::after{
@@ -598,6 +626,12 @@ font-family: opensansregular, sans-serif;
   margin-bottom: 40px;
 }
 
+.our-products-position {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .shop-card{
   display: flex;
   flex-direction: column;
@@ -606,7 +640,6 @@ font-family: opensansregular, sans-serif;
 .shop-cards {
   padding: 0 20px;
   display: flex;
-  justify-content: space-between;
   width: calc(100%/3 - 20px);
 }
 
@@ -634,12 +667,6 @@ font-family: opensansregular, sans-serif;
   height: 250px;
 }
 
-.container-shop{
-  display: flex;
-  font-display: column;
-  column-gap: 30px;
-  flex-wrap: wrap;
-}
 
 .shop-content {
   outline: #b59f5b 4px solid;
@@ -655,6 +682,7 @@ font-family: opensansregular, sans-serif;
   font-size: 20px;
   line-height: 24px;
   color: #0f0d0e;
+  font-weight: 700;
 }
 
 .shop-content-text{
@@ -664,6 +692,7 @@ font-family: opensansregular, sans-serif;
   line-height: 22px;
   color: #0f0d0e;
   margin-bottom: 15px;
+  font-weight: 400;
 }
 
 .shop-link {
@@ -678,6 +707,7 @@ font-family: opensansregular, sans-serif;
   color: #0f0d0e;
   text-decoration: line-through;
   margin-bottom: 0px;
+  font-weight: 700;
 }
 
 .price-new{
@@ -686,6 +716,7 @@ font-family: opensansregular, sans-serif;
   line-height: 24px;
   color: #0f0d0e;
   margin: 0;
+  font-weight: 700;
 }
 
 .price{
@@ -708,6 +739,7 @@ font-family: opensansregular, sans-serif;
   font-family: OpenSansBold,sans-serif;
   cursor: pointer; 
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .go-shopping:hover {
@@ -758,6 +790,7 @@ font-family: opensansregular, sans-serif;
    font-family: OpenSansBold,sans-serif;
    color: #999999;
    margin-top: 53px;
+   font-weight: 700;
  }
 
  .visually-hidden {
@@ -793,6 +826,7 @@ font-family: opensansregular, sans-serif;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 700;
 }
 .popup{
   position: fixed;
@@ -855,6 +889,7 @@ font-family: opensansregular, sans-serif;
   color: #0f0d0e;
   margin-bottom: 0px;
   margin-top: -3px;
+  font-weight: 700;
 }
 
 .popup-title::after{
@@ -883,6 +918,7 @@ font-family: opensansregular, sans-serif;
   color: #0f0d0e;
   margin-top: 20px;
   margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .select {
@@ -954,6 +990,7 @@ font-family: opensansregular, sans-serif;
   font-size: 14px;
   font-family: opensansregular,sans-serif;
   color: #0f0d0e;
+  font-weight: 400;
 }
 
 .form-text-mail {
@@ -964,6 +1001,7 @@ font-family: opensansregular, sans-serif;
   padding-top: 10px;
   padding-left: 10px;
   margin-top: 10px;
+  font-weight: 400;
 }
 
 .popup-button-send{
@@ -977,6 +1015,7 @@ font-family: opensansregular, sans-serif;
     font-family: OpenSansBold,sans-serif;
     cursor: pointer;
     width: 100%;
+    font-weight: 700;
 }
 
 .checkbox{
@@ -988,6 +1027,8 @@ font-family: opensansregular, sans-serif;
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
+
+  
   .header {
     background-image: url(img/banner-bg-tablet.jpg);
   background-size: cover;
@@ -997,6 +1038,7 @@ font-family: opensansregular, sans-serif;
 
   .container {
     width: 100%;
+    padding: 0 30px;
   }
 
   .nav{
@@ -1023,6 +1065,14 @@ font-family: opensansregular, sans-serif;
 
   .container-post {
     justify-content: center;
+  }
+
+  .news {
+    width: 100%;
+  }
+
+  .last-posts {
+    padding-right: 20px;
   }
 
   .last-post-first {
