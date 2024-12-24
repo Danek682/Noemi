@@ -1181,6 +1181,10 @@ font-family: opensansregular, sans-serif;
   .content-post {
     margin: 0;
   }
+
+  .news {
+    width: 100%;
+  }
   
   .post-item{
     padding-top: 10px;
@@ -1198,6 +1202,7 @@ font-family: opensansregular, sans-serif;
       height: 3px;
       background: #eeeeee;
       margin-top: 15px;
+      width: 100%;
  }
  .post-title-search {
     font-size: 17px;
