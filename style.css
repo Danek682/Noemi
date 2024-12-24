@@ -1073,6 +1073,7 @@ font-family: opensansregular, sans-serif;
 
   .last-posts {
     padding-right: 20px;
+    width: auto;
   }
 
   .last-post-first {
