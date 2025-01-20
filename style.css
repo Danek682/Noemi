@@ -1027,8 +1027,6 @@ font-family: opensansregular, sans-serif;
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
-
-  
   .header {
     background-image: url(img/banner-bg-tablet.jpg);
   background-size: cover;
@@ -1039,6 +1037,10 @@ font-family: opensansregular, sans-serif;
   .container {
     width: 100%;
     padding: 0 30px;
+  }
+
+  .aside-wrapper {
+    min-width: 270px;;
   }
 
   .nav{
@@ -1121,7 +1123,8 @@ font-family: opensansregular, sans-serif;
   }
   }
   
-@media (max-width:640px) {
+  @media (max-width: 640px) {
+
   .container {
     width: 100%;
   }
@@ -1229,4 +1232,13 @@ font-family: opensansregular, sans-serif;
 .container{
   padding: 0;
 }
+@media (max-width: 640px) and (orientation: landscape) {
+  .trend-container {
+   width: calc((100% / 2) - 3px);
+  }
+  .title-content {
+    padding: 20px 10px 10px;
+  }
 }
+  }
+  
